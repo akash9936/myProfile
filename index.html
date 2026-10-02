@@ -598,6 +598,11 @@
             color: var(--primary-color);
         }
 
+        .work-text {
+            color: #5c677d;
+            line-height: 1.7;
+        }
+
         .skills-list {
             display: flex;
             flex-wrap: wrap;
@@ -1197,6 +1202,7 @@
                 <a href="#" class="logo"><i class="fas fa-code"></i>Akash Singh</a>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#education">Education</a></li>
@@ -1254,6 +1260,38 @@
         </div>
     </section>
     
+<section id="work" class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title">What I Work On</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-handshake"></i> Lender Integrations</h3>
+                    <p class="work-text">I connect a lending platform to NBFC lending partners: loan booking, disbursal, co-lending arrangements and the status callbacks that keep both sides in agreement about every loan.</p>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-file-invoice-dollar"></i> Loan Servicing</h3>
+                    <p class="work-text">Repayment schedules, EMI payment marking, part-payments, pre-closure and settlement. This is the part of lending where a wrong number becomes a customer complaint, so correctness and reconciliation come first.</p>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-id-card"></i> Onboarding &amp; KYC</h3>
+                    <p class="work-text">Video KYC and document verification flows, and the operational tooling that lets an ops team process applications without an engineer in the loop.</p>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-route"></i> Service Migration</h3>
+                    <p class="work-text">Moving a production integration service onto a new codebase, one lender and one flow at a time, without interrupting live disbursals.</p>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-life-ring"></i> Production Support</h3>
+                    <p class="work-text">Root-cause analysis from logs and data, runbooks for recurring issues, and staged releases across multiple services, verified pod by pod.</p>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-robot"></i> AI-Assisted Engineering</h3>
+                    <p class="work-text">I build agent harnesses around LLMs: scheduled loops, enumerated permissions, checkpointed state, and held-out evals that measure whether a prompt change helped.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <section id="experience" class="experience-section section">
     <div class="container">
         <h2 class="section-title">My Experience</h2>
@@ -1311,7 +1349,8 @@
                         <span class="skill-tag"><i class="fas fa-code"></i> TypeScript</span>
                         <span class="skill-tag"><i class="fas fa-project-diagram"></i> Microservices</span>
                         <span class="skill-tag"><i class="fas fa-exchange-alt"></i> RESTful APIs</span>
-                        <span class="skill-tag"><i class="fas fa-rabbit"></i> RabbitMQ</span>
+                        <span class="skill-tag"><i class="fas fa-envelope-open-text"></i> RabbitMQ</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
                     </div>
                 </div>
     
@@ -1346,6 +1385,16 @@
                         <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
                     </div>
                 </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-robot"></i> AI &amp; Agents</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag"><i class="fas fa-robot"></i> LLM Agents</span>
+                        <span class="skill-tag"><i class="fas fa-vial"></i> Evals</span>
+                        <span class="skill-tag"><i class="fas fa-plug"></i> MCP Tools</span>
+                        <span class="skill-tag"><i class="fas fa-terminal"></i> Claude Code</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1365,6 +1414,22 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Life OS - Personal Agent Harness</h3>
+                        <p class="project-description">A file-based assistant that triages my mail and tickets into one list of what I owe. Scheduled loops, an enumerated deny list for anything outbound, checkpoints, and a held-out eval set so prompt changes are measured instead of guessed.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LLM Agents</span>
+                            <span class="tech-tag">Evals</span>
+                            <span class="tech-tag">MCP</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-icon"><i class="fas fa-chart-line"></i></div>
