@@ -10,7 +10,16 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akash Singh | Software Developer</title>
+    <title>Akash Singh | Backend Engineer, Lending Systems</title>
+    <meta name="description" content="Backend engineer at Propelld. I build lending systems for NBFCs: loan management, lender integrations and decision engines, in Node.js and TypeScript.">
+    <link rel="canonical" href="https://akashs.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akashs.com/">
+    <meta property="og:title" content="Akash Singh | Backend Engineer, Lending Systems">
+    <meta property="og:description" content="Backend engineer at Propelld. I build lending systems for NBFCs: loan management, lender integrations and decision engines, in Node.js and TypeScript.">
+    <meta property="og:image" content="https://akashs.com/1.jpg">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234361ee'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EAS%3C/text%3E%3C/svg%3E">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -700,6 +709,17 @@
             position: relative;
         }
 
+        .project-image .project-icon {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+            background: var(--gradient);
+        }
+
         .project-image img {
             width: 100%;
             height: 100%;
@@ -1180,6 +1200,7 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="burger">
@@ -1191,8 +1212,8 @@
 
             <div class="hero">
                 <h1>Hi, I'm <span>Akash Singh</span></h1>
-                <h2>Software Developer</h2>
-                <p>I build scalable web applications and robust APIs with a strong focus on performance, quality, and user experience. My QA background ensures I deliver bug-free, well-tested solutions.</p>
+                <h2>Backend Engineer &middot; Lending Systems</h2>
+                <p>I build the systems that move loans at Propelld: the loan management system for an NBFC, lender integrations, and the decision engine behind one-hour disbursal. I started in QA, so I test what I ship.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Contact Me</a>
                     <a href="#experience" class="btn btn-secondary"><i class="fas fa-briefcase"></i> My Experience</a>
@@ -1212,20 +1233,20 @@
                     <img src="1.jpg" alt="Akash Singh Profile Photo" />
                 </div>
                 <div class="about-text">
-                    <h3>I'm a <span class="highlight">Software Developer</span> with a Passion for Quality</h3>
-                    <p>With over 4 years in the tech industry, I've transitioned from a meticulous QA Engineer to a creative Software Developer. This unique journey has equipped me with a deep understanding of the entire development lifecycle, from conception to deployment. I'm driven by the challenge of building elegant, efficient, and scalable solutions that not only meet technical requirements but also provide a seamless user experience.</p>
+                    <h3>I'm a <span class="highlight">Backend Engineer</span> who came up through QA</h3>
+                    <p>I have worked in software for over 7 years: two as a QA engineer testing a jewellery ERP, and the rest as a developer at Propelld, where I build lending systems for NBFCs in Node.js and TypeScript. Starting in QA taught me to think about how a system fails before I think about how it works, and that still shapes how I design and test.</p>
                     <div class="about-stats">
                         <div class="stat-item">
-                            <div class="stat-number">4+</div>
+                            <div class="stat-number">7+</div>
                             <div class="stat-label">Years Experience</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">10+</div>
-                            <div class="stat-label">Projects Delivered</div>
+                            <div class="stat-number">&#8377;10Cr+</div>
+                            <div class="stat-label">Loans on the LMS I built, year one</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">Quality Focus</div>
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">NBFCs Onboarded</div>
                         </div>
                     </div>
                 </div>
@@ -1241,16 +1262,18 @@
                 <div class="experience-content">
                     <div class="experience-header">
                         <div class="experience-company">Propelld</div>
-                        <div class="experience-date">2021 - Present</div>
+                        <div class="experience-date">May 2021 - Present</div>
                     </div>
                     <span class="experience-position">Software Developer Engineer</span>
                     <div class="experience-description">
                         <ul>
-                            <li>Designed and implemented a Microservices Architecture for core financial components, improving system scalability by 40%</li>
-                            <li>Developed RESTful APIs processing 500+ requests/minute with 99.9% uptime for loan management and decision systems</li>
-                            <li>Integrated RabbitMQ message queue to handle asynchronous processing, reducing response times by 30%</li>
-                            <li>Optimized MongoDB queries and indexing strategies, improving database performance by 25%</li>
-                            <li>Implemented automated CI/CD pipelines reducing deployment time from 30 minutes to under 5 minutes</li>
+                            <li>Designed and implemented the loan management system for Edgro NBFC, which supported &#8377;10+ crore of loan applications in its first year</li>
+                            <li>Onboarded 3+ NBFC lending partners, which together carry over 80% of the company's monthly disbursement</li>
+                            <li>Worked on the decision engine that cut manual credit processing and brought full disbursal to within one hour</li>
+                            <li>Led the design and implementation of a microservices architecture for core components, deployed on Kubernetes</li>
+                            <li>Integrated RabbitMQ for heavy tasks and event broadcast, cutting processing time by 30% under load testing</li>
+                            <li>Optimised SQL and MongoDB queries, reducing report latency by 20%</li>
+                            <li>Built the customer communication infrastructure for SMS, WhatsApp and email, and mentored interns</li>
                         </ul>
                     </div>
                 </div>
@@ -1260,16 +1283,15 @@
                 <div class="experience-content">
                     <div class="experience-header">
                         <div class="experience-company">iNube Software Solutions</div>
-                        <div class="experience-date">2019 - 2021</div>
+                        <div class="experience-date">Apr 2019 - Aug 2021</div>
                     </div>
                     <span class="experience-position">Engineer - Quality Assurance</span>
                     <div class="experience-description">
                         <ul>
-                            <li>Led end-to-end testing for a jewelry ERP system with 20+ modules and complex business logic</li>
-                            <li>Built automated test frameworks using Selenium with BDD (Page Object Model, Maven) reducing regression testing time by 70%</li>
-                            <li>Implemented comprehensive API testing strategy with Postman and Newman for CI integration</li>
-                            <li>Established QA best practices and documentation standards adopted company-wide</li>
-                            <li>Conducted performance testing with JMeter identifying critical bottlenecks before production</li>
+                            <li>Gathered requirements and tested a jewellery ERP end to end: metal and stone accounting, invoicing, incentives, loyalty, CRM, reports and warehouse</li>
+                            <li>Built regression automation with Selenium and BDD (Page Object Model, Maven)</li>
+                            <li>Ran smoke, regression and system integration testing, with defect tracking in JIRA</li>
+                            <li>Validated data with SQL, tested APIs with Postman, and covered cross-browser behaviour</li>
                         </ul>
                     </div>
                 </div>
@@ -1334,7 +1356,7 @@
             <div class="education-card">
                 <h3 class="education-title">Rungta College of Engineering and Technology</h3>
                 <p class="education-subtitle">Bachelor of Engineering in Electrical Engineering</p>
-                <p class="education-details">Graduated with honors | Relevant coursework: Data Structures, Algorithms, Computer Architecture</p>
+                <p class="education-details">Bhilai &middot; Graduated April 2015</p>
             </div>
         </div>
     </section>
@@ -1345,7 +1367,7 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Stock Market Analysis">
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/stockV3" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1368,7 +1390,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Financial News Analyzer">
+                        <div class="project-icon"><i class="fas fa-newspaper"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/zerodhaNews" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1390,7 +1412,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Geeta GPT">
+                        <div class="project-icon"><i class="fas fa-om"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/gitbot" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1413,7 +1435,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="India Progress">
+                        <div class="project-icon"><i class="fas fa-seedling"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/indiaprogress" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1435,7 +1457,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Freelancer Platform">
+                        <div class="project-icon"><i class="fas fa-camera"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/FreelencerFrontend" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1457,7 +1479,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Stock News Service">
+                        <div class="project-icon"><i class="fas fa-paper-plane"></i></div>
                         <div class="project-overlay">
                             <a href="https://github.com/akash9936/StockNews" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> View Project</a>
                         </div>
@@ -1498,15 +1520,6 @@
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Phone</h4>
-                            <a href="tel:+919999999999">+91 99999 99999</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
                             <i class="fab fa-linkedin-in"></i>
                         </div>
                         <div class="contact-details">
@@ -1526,26 +1539,9 @@
                 </div>
     
                 <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" class="form-control" placeholder="Enter subject">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
-                        <div class="form-status"></div>
-                    </form>
+                    <h3>Write to me</h3>
+                    <p style="margin: 1rem 0 2rem;">Email is the fastest way to reach me.</p>
+                    <a href="mailto:akash9936@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> akash9936@gmail.com</a>
                 </div>
             </div>
         </div>
@@ -1555,13 +1551,11 @@
         <div class="container">
             <div class="footer-content">
                 <a href="#" class="footer-logo">Akash<span>Singh</span></a>
-                <p class="footer-text">Software Developer with a passion for building scalable, high-quality web applications and APIs.</p>
+                <p class="footer-text">Backend engineer building lending systems for NBFCs.</p>
                 
                 <div class="footer-social">
                     <a href="https://www.linkedin.com/in/akash-singh-96045582/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="github.com/akash9936" class="social-icon"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-stack-overflow"></i></a>
+                    <a href="https://github.com/akash9936" class="social-icon"><i class="fab fa-github"></i></a>
                 </div>
                 
                 <div class="footer-links">
@@ -1667,22 +1661,6 @@
         // Set current year in footer
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        // Contact Form
-        const contactForm = document.getElementById('contactForm');
-        const formStatus = document.querySelector('.form-status');
-
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            formStatus.innerHTML = 'Sending...';
-            formStatus.style.color = 'var(--text-light)';
-
-            // Simulate form submission
-            setTimeout(() => {
-                formStatus.innerHTML = 'Message sent successfully!';
-                formStatus.style.color = 'var(--success-color)';
-                contactForm.reset();
-            }, 2000);
-        });
     </script>
     
     <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
